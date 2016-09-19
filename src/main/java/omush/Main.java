@@ -1,0 +1,1 @@
+package omush;import org.joda.time.LocalTime;import org.apache.commons.logging.Log;import org.apache.commons.logging.LogFactory;import omush.Game;public class Main {  private final static Log LOG = LogFactory.getLog(Main.class);  public static void main(String[] args) {      Game game = new Game();      game.run();  }}
