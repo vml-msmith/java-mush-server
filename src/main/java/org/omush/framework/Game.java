@@ -9,10 +9,12 @@ import org.omush.framework.IGameBuilder;
 
 public class Game implements IGame {
     private final static Log LOG = LogFactory.getLog(Game.class);
+    private GameInstance gameInstance;
 
     @Override
     public boolean initialize(GameInstance instance,
                               IGameBuilder gameBuilder) {
+        gameInstance = instance;
         return isInitialized();
     }
 
