@@ -1,5 +1,9 @@
 package org.omush.framework;
 
-public class GameInstance {
+import java.util.ArrayList;
 
+import org.omush.network.ISocketServer;
+
+public class GameInstance {
+    public ISocketServer network = null;
 }
